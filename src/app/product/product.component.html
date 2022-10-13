@@ -1,0 +1,34 @@
+<div>
+  <div>
+    <div>
+      <h2>List of Products</h2>
+    </div>
+    <div><span>List of Products</span></div>
+  </div>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>Product Id</th>
+          <th>Name</th>
+          <th>Code</th>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Image Url</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of products">
+          <td><span>{{product.productId}}</span></td>
+          <td><span>{{product.name}}</span></td>
+          <td><span>{{product.code}}</span></td>
+          <td><span>{{product.title}}</span></td>
+          <td><span>{{product.description}}</span></td>
+          <td><span>{{product.imgUrl}}</span></td>
+          <td><span>{{product.price}}</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
