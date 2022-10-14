@@ -1,4 +1,4 @@
-# ProductWeb by Navis
+# ProductWeb by Navis Michael
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
 
